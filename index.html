@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Gallery template example</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+
+
+
+
+  </head>
+  <body>
+
+    <header>
+      <div class="container breadcrumb">
+        <!--Website or company logo section-->
+        <div class="branding">
+          <h2>Customized Photo Gallery</h2>
+        </div>
+        <!--Navigation section inside the header-->
+        <nav>
+            <ul class="nav nav-pills">
+              <li role="presentation" class="active"><a href="#">Home</a></li>
+              <li role="presentation"><a href="#about">About</a></li>
+            </ul>
+        </nav>
+
+      </div>
+    </header>
+
+    <!--Gallery section -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col col-md-8 push-down-sm">
+
+            <!--Images wrapper which has a class of thumbnails-->
+            <div class="thumbnails group">
+              <a href="img/alce-max.jpg" data-lightbox="gallery" data-title="Alce"><img src="img/alce.jpg" alt="Alce"class="img-thumbnail"></a>
+              <a href="img/eagle-max.jpg" data-lightbox="gallery" data-title="American Eagle"><img src="img/eagle.jpg" alt="Eagle" class="img-thumbnail"></a>
+              <a href="img/mm-max.jpg" data-lightbox="gallery" data-title="Crazy animal"><img src="img/mm.jpg" alt="Unknown" class="img-thumbnail"></a>
+              <a href="img/panther-max.jpg" data-lightbox="gallery" data-title="Panther"><img src="img/panther.jpg" alt="panther" class="img-thumbnail"></a>
+              <a href="img/wow-max.jpg" data-lightbox="gallery" data-title="Wow"><img src="img/wow.jpg" alt="Wow" class="img-thumbnail"></a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!--About section-->
+    <section id="about" class="about-showcase">
+        <div class="container">
+          <p class=".lead .text-info">This is an example of how a photo gallery should look like. It was created by applying HTML5, CSS, Javascript and Bootstrap framework</p>
+
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+      <div class="container">
+        <p class="text-muted credit">Copyrights &copy; Dylan Altamirano 2017</p>
+        </div>
+      </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/lightbox.min.js" ></script>
+  </body>
+</html>
